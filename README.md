@@ -11,31 +11,32 @@ pip install -r requirements.txt
 ```
 
 ## Code Structure
+```
 ```DataProcess.py``` contains all helper functions and defense algorithms including median, clipping median, krum and FLtrust.\
 ```Aggr.py``` stores trainning-stage aggregation rules (i.e., defenses)\
 ```Backdoor_attacks.py``` contains code for training autoencoder which is used in distribution learning.\
 ```Networks.py``` contains code for distribution learning and policy learning. \
 ```Post_defenses.py``` contains code for testing all other baselines including no attack, inner product manipulation(IPM), explicit boosting(EB), local model poisoning attack(LMP)
 ```Util.py``` 
-```
+
 
 ## Trainning attack policy
-# Change the model dir to your own experiment
 ```
+# Change the model dir to your own experiment
 python3 train_cifar_krum_TD3_policy.py
 python3 train_cifar_post_DDPG_policy.py
-```
+
 
 
 
 ## Test
-# Change the model dir to your own experiment
 ```
+# Change the model dir to your own experiment
 python3 cifar10_test.py
 python3 cifar10_test1.py
 python3 cifar10_test2.py
 mnist_test.py
-```
+
 
 ## Reference
 ```
