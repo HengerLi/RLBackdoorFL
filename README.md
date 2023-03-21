@@ -32,10 +32,11 @@ python3 train_cifar_post_DDPG_policy.py
 ## Test
 ```
 # Change the model dir to your own experiment
-python3 cifar10_test.py\
-python3 cifar10_test1.py\
-python3 cifar10_test2.py\
+python3 cifar10_test.py
+python3 cifar10_test1.py
+python3 cifar10_test2.py
 mnist_test.py
+
 
 
 ## Reference
