@@ -18,14 +18,14 @@ pip install -r requirements.txt
 ```Networks.py``` contains code for distribution learning and policy learning. \
 ```Post_defenses.py``` contains code for testing all other baselines including no attack, inner product manipulation(IPM), explicit boosting(EB), local model poisoning attack(LMP)
 ```Util.py``` 
-
+```
 
 ## Trainning attack policy
 ```
 # Change the model dir to your own experiment
 python3 train_cifar_krum_TD3_policy.py\
 python3 train_cifar_post_DDPG_policy.py
-
+```
 
 
 
@@ -36,13 +36,13 @@ python3 cifar10_test.py
 python3 cifar10_test1.py
 python3 cifar10_test2.py
 mnist_test.py
-
+```
 
 
 ## Reference
 ```
 The implementation is based on our Learning-to-Attack-Federated-Learning framework for untargeted model poisoning attack (NuerIPS'22 [Paper link](https://openreview.net/pdf?id=4OHRr7gmhd4))
-
+```
 
 ## Citation
 If you find our work useful in your research, please consider citing:
