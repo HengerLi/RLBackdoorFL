@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 ```DataProcess.py``` preprocesses data
 ```Aggr.py``` stores trainning-stage aggregation rules (i.e., defenses)
-```Backdoor_attacks.py``` contains code for training autoencoder which is used in distribution learning.
+```Backdoor_attacks.py``` includes code for backdoor attack methods
 ```Networks.py``` contains network structures 
 ```Post_defenses.py``` contains post-trainning stage defenses
 ```Util.py``` includes all helper functions 
@@ -33,7 +33,7 @@ python3 train_cifar_post_DDPG_policy.py
 python3 cifar10_test.py
 python3 cifar10_test1.py
 python3 cifar10_test2.py
-mnist_test.py
+python3 mnist_test.py
 ```
 
 ## Reference
